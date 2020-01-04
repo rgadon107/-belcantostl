@@ -1,0 +1,74 @@
+//
+// Front Page Stylings
+//================================
+
+.rehearsal,
+.performance {
+  margin-bottom: 25px;
+  //@include media($breakpoint__screen-size--small) {
+  //  margin-bottom: 15px;
+  //}
+}
+
+.about-bcc {
+  margin-bottom: 20px;
+}
+
+.rehearsal,
+.performance,
+.about-bcc {
+  clear: both;
+  @include rem(font-size, $widget-title__Welcome--font-size);
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  @include media($breakpoint__screen-size--small) {
+    font-weight: 400;
+  }
+}
+
+.rehearsal-content,
+.performance-content  {
+  text-align: center;
+  padding: 0 10% 0 10%;
+}
+
+.concert-event {
+  text-align: center;
+}
+
+.faq--container {
+  & .revealer--visible {
+    @include rem(font-size, $faqs__Revealer_Visible--font-size);
+    font-weight: bold;
+  }
+
+  & .revealer--hidden {
+    font-weight: 400;
+  }
+}
+
+.entry-content {
+
+  & .front-page-caption figcaption {
+    font-size: 18px;
+  }
+
+  & .faqs--row-1.faqs-two-column {
+    margin-top: 10px;
+  }
+
+  & .faqs--row-2.faqs-two-column,
+  & .faqs--row-3.faqs-two-column {
+    margin-top: 20px;
+  }
+
+  & .faqs--row-1.faqs-two-column,
+  & .faqs--row-2.faqs-two-column,
+  & .faqs--row-3.faqs-two-column {
+    display: flex;
+    @include media($breakpoint__screen-size--small) {
+      display: block;
+    }
+  }
+}
