@@ -8,10 +8,14 @@
   line-height: 1.2;
 
   > a {
-    background-image: url(/wp-content/themes/developers/images/cornerstone-chorale-logo-bruce-vantine-image.png);
+    background-image: url(/wp-content/themes/developers/images/Bel_Canto_Chorus_Banner_Logo_1280W.png);
     background-position: center !important;
     background-size: contain !important;
     background-repeat: no-repeat;
+
+	@media only screen and (max-width: $breakpoint__screen-size--small ) {
+	  background-image: url(/wp-content/themes/developers/images/Bel_Canto_Chorus_Banner_Logo_500W.png);
+	}
   }
 
   a,
