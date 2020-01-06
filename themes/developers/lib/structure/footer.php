@@ -32,7 +32,7 @@ add_action( 'genesis_footer', __NAMESPACE__ . '\add_site_footer_widget_area' );
  *  @return void
  */
 function add_site_footer_widget_area()  {
-	genesis_widget_area( 'footer_widget_area', array(
+	genesis_widget_area( 'footer-widget-area', array(
 		'before' => '<div class="site-footer--widget-area"><div class="wrap">',
 		'after'  => '</div></div>',
 	) );
