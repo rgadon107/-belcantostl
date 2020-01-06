@@ -12,6 +12,9 @@ $html--font-size: 62.5%;
 $font-family--source-sans-pro: 'Source Sans Pro', sans-serif;
 $font-family--lato: 'Lato', sans-serif;
 
+// Base Typography
+$html--font-size: 62.5%;
+
 $base--font-family: $font-family--source-sans-pro;
 $base--font-size: 20px;
 $base--font-size--small-screen: 18px;
@@ -49,10 +52,6 @@ $archive-pagination--font-size: 16px;
 $site-title--font-size: 30px;
 $site-description--font-size: 16px;
 
-//
-// Front Page
-//==================
-$front-page__Section-Title--font-size: 48px;
 
 //
 // Footer
@@ -68,6 +67,7 @@ $entry-header__entry-meta--font-size: 16px;
 $entry-footer__entry-meta--font-size: 16px;
 
 $entry-title--font-size: 36px;
+$entry-content--font-size: 24px;
 
 //
 // Comments
@@ -90,6 +90,7 @@ $featured-content__entry-title--font-size: 20px;
 $enews--font-size: 16px;
 $events__Archive_Title--font-size: 48px;
 $events__Archive_Date_Time--font-size: 26px;
+$faqs__Revealer_Visible--font-size: 26px;
 
 //
 // General Components
