@@ -21,7 +21,7 @@ return array(
 		array(
 			'id'          => 'footer-widget-area',
 			'name'        => 'Footer Widget',
-			'description' => 'The footer widget area.',
+			'description' => 'Displays widgets in the site footer area.',
 		),
 	)
 );
