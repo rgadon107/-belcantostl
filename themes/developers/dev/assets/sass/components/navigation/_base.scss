@@ -37,7 +37,7 @@
 
   a:hover,
   a:focus,
-  .current-menu-item > a,
+  .current-menu-item > a:active,
   .sub-menu .current-menu-item > a:hover,
   .sub-menu .current-menu-item > a:focus {
     color: $nav--hover-color;
