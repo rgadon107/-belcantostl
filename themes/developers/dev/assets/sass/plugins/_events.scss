@@ -1,0 +1,169 @@
+/* ## Events add-on plugin
+---------------------------------------------------*/
+// Styles for 'archive-events' page.
+.events {
+
+  &-archive-title {
+	background-color: $yellow--light;
+	@include rem(font-size, $events__Archive_Title--font-size);
+	font-style: italic;
+	font-weight: 900;
+	@media only screen and (max-width: $breakpoint__screen-size--small) {
+	  font-weight: 400;
+	  line-height: 1.2;
+	}
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+	padding: 20px 30px;
+  }
+  .event-thumbnail {
+	padding-right: 10px;
+	margin-bottom: 20px;
+  }
+
+  .entry-title a {
+	&:focus,
+	&:hover {
+	  text-decoration: underline;
+	}
+  }
+
+  .entry-content.two-thirds {
+	margin-top: 10px;
+	@media only screen and (max-width: $breakpoint__screen-size--small) {
+	  margin-top: 20px;
+	}
+
+	& .share-before {
+	  margin-left: inherit;
+	}
+  }
+
+  .entry-content.two-thirds,
+  .entry-footer.two-thirds {
+	float: right;
+  }
+
+  .entry-content.two-thirds > p,
+  .entry-footer .event-sponsor {
+	float: left;
+	margin-left: 2.564102564102564%;
+	@media only screen and (max-width: $breakpoint__screen-size--small) {
+	  margin-left: 0;
+	}
+  }
+
+  .event.event-date {
+	@include rem(font-size, $events__Archive_Date_Time--font-size);
+	@media only screen and (max-width: $breakpoint__screen-size--small) {
+	  margin-top: 15px;
+	}
+  }
+
+  .revealer--visible {
+	display: flex;
+  }
+
+  .sponsor-contact-items {
+	display: flex;
+	@media only screen and (max-width: $breakpoint__screen-size--small) {
+	  display: inline-block;
+	}
+  }
+}
+
+.content .entry.events {
+  margin: 10px 0;
+  padding: 30px;
+  background-color: $yellow--light;
+}
+
+// 'Events' shortcode view stylings.
+.type-events,
+.type-event {
+
+  & .event-location,
+  & .entry-title {
+	text-align: left;
+	@media only screen and (max-width: $breakpoint__screen-size--small) {
+	  margin-top: 15px;
+	}
+  }
+
+  & .event-entry-content {
+	text-align: left;
+	margin-bottom: 15px;
+	padding: 5px 10px 5px;
+	background-color: $gray--light;
+	@include rem(font-size, $entry-content--font-size);
+	& p {
+	  @include rem(font-size, $events__Archive_Date_Time--font-size);
+	}
+  }
+}
+
+.before-event-entry-content-meta {
+  text-align: left;
+
+  & .event.event-date {
+	@include rem(font-size, $events__Archive_Date_Time--font-size);
+	@media only screen and (max-width: $breakpoint__screen-size--small) {
+	  margin-top: 15px;
+	}
+  }
+
+  & .event.event-date {
+	@include rem(font-size, $events__Archive_Date_Time--font-size);
+	@media only screen and (max-width: $breakpoint__screen-size--small) {
+	  margin: 15px 0 0;
+	}
+  }
+}
+
+.after-event-entry-content-meta {
+  float: right;
+  text-align: left;
+
+  .supplemental-event-info,
+  .event-address {
+	font-family: $font-family--source-sans-pro;
+  }
+
+  & .fas.fa-map-marker-alt,
+  &.two-thirds .event-admission,
+  &.two-thirds .event-parking {
+	@media only screen and (max-width: $breakpoint__screen-size--small) {
+	  margin: 15px 0 15px;
+	}
+  }
+}
+
+.event-entry-footer.two-thirds {
+  float: right;
+  text-align: left;
+  margin-bottom: 25px;
+  @media only screen and (max-width: $breakpoint__screen-size--small) {
+	margin-bottom: 15px;
+  }
+
+  & .sponsor-contact-info {
+	vertical-align: top;
+	display: inline-block;
+  }
+
+  & .sponsor-contact-items {
+	display: flex;
+	@media only screen and (max-width: $breakpoint__screen-size--small) {
+	  display: block;
+	}
+
+	& .sponsor-tel-number,
+	& .sponsor-web-site,
+	& .sponsor-facebook,
+	& .sponsor-twitter {
+	  padding-right: 40px;
+	}
+  }
+}
+
