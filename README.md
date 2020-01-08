@@ -2,7 +2,7 @@
 
 The remote repository for the web site of the Bel Canto Chorus of the St. Louis, MO [https://belcantostl.org]. 
 
-This repo contains the mu-plugin directory and _Developers_ Genesis child theme used on the website. 
+This repo contains a mu-plugin directory and the _Developers_ Genesis child theme used on the website. 
 
 The `mu-plugin` plugin directory includes the `central-hub` plugin, which manages the registration of 
 custom post types, meta-boxes, custom taxonomies, and shortcodes for the site. 
