@@ -1,0 +1,34 @@
+# Directories
+
+/mu-plugins/central-hub/node_modules/
+/mu-plugins/debug-toolkit
+/plugins/akismet
+/plugins/backupbuddy
+/plugins/classic-editor
+/plugins/easy-digital-downloads
+/plugins/genesis-simple-hooks
+/plugins/genesis-simple-share
+/plugins/genesis-visual-hook-guide
+/plugins/jetpack
+/plugins/ninja-forms
+/plugins/popup-maker
+/plugins/pum-mailchimp-integration
+/plugins/query-monitor
+/plugins/rvg-optimize-database
+/plugins/simple-page-ordering
+/plugins/wordpress-seo
+/plugins/wp-migrate-db-pro
+/plugins/wp-migrate-db-pro-media-files
+/plugins/wp-migrate-db-pro-theme-plugin-files
+/themes/genesis
+/themes/genesis-sample
+/themes/twentytwenty
+/upgrade
+/uploads
+
+
+# Files
+
+/mu-plugins/wp-migrate-db-pro-compatibility.php
+/themes/developers/.gitignore
+db.php
