@@ -1,6 +1,5 @@
 # Directories
 
-/mu-plugins/central-hub/node_modules/
 /mu-plugins/debug-toolkit
 /plugins/akismet
 /plugins/backupbuddy
@@ -16,6 +15,8 @@
 /plugins/query-monitor
 /plugins/rvg-optimize-database
 /plugins/simple-page-ordering
+/plugins/sg-cachepress
+/plugins/wordfence
 /plugins/wordpress-seo
 /plugins/wp-migrate-db-pro
 /plugins/wp-migrate-db-pro-media-files
@@ -25,6 +26,7 @@
 /themes/twentytwenty
 /upgrade
 /uploads
+/wflogs
 
 
 # Files
